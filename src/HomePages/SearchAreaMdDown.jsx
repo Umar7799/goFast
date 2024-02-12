@@ -12,8 +12,8 @@ const SearchAreaMdDown = () => {
 	const { openHowMany, setOpenHowMany, increase, decrease, startDate, setStartDate, Passenger, handleOtherElementClick } = GetInfo()
 
 	return (
-		<div className='md:hidden bg-red-500 rounded-xl mx-8'>
-			<input className='p-3 outline-0 border border-b-0 border-gray-300 bg-gradient-to-l from-[#E9D2F4] to-[#9f98a2] font-semibold text-lg rounded-t-xl w-full block placeholder:font-semibold placeholder:font-sans placeholder:text-gray-200' type="text" placeholder='City of departure' />
+		<div className='md:hidden rounded-xl mx-8'>
+			<input className='p-3 outline-0 border border-b-0 border-gray-300 bg-gradient-to-l from-[#E9D2F4] to-[#9f98a2] font-semibold text-lg rounded-t-xl rounded-b-none w-full block placeholder:font-semibold placeholder:font-sans placeholder:text-gray-200' type="text" placeholder='City of departure' />
 			<input className='p-3 outline-0 border border-b-0 border-gray-300 bg-gradient-to-l from-[#E9D2F4] to-[#9f98a2] font-semibold text-lg w-full block placeholder:font-semibold placeholder:font-sans placeholder:text-gray-200' type="text" placeholder='Destination city' />
 			<div className='flex '>
 
@@ -30,7 +30,7 @@ const SearchAreaMdDown = () => {
 						placeholderText='Today?'
 					/>
 				</div>
-				
+
 				<div className='flex bg-gradient-to-l from-[#E9D2F4] to-[#E9D2F4] space-x-4 p-3 pr-8 bg-white relative border border-b-0 border-gray-300'>
 					<img onClick={() => setOpenHowMany(!openHowMany)} className='cursor-pointer w-7' src={howMany} alt="" />
 					<h1 onClick={() => setOpenHowMany(!openHowMany)} className='cursor-pointer font-semibold underline text-lg'>{Passenger}</h1>

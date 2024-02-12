@@ -66,8 +66,8 @@ const Navbar = () => {
 						</div>
 					</Link>
 					<div className='flex items-center space-x-6'>
-						<h1 className='hidden sm:block pl-0 pt-2 underline'>Cars</h1>
-						<h1 className='hidden sm:block pt-2 underline'>Buses</h1>
+						<h1 className='hidden sm:block pl-0 pt-2 cursor-pointer underline'>Cars</h1>
+						<h1 className='hidden sm:block pt-2 cursor-pointer underline'>Buses</h1>
 					</div>
 				</div>
 				<div onClick={handleMenuOpen} className='md:hidden pr-4 cursor-pointer'>
