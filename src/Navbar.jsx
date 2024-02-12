@@ -97,7 +97,7 @@ const Navbar = () => {
 								<img src={SearchARide} className='w-9 md:w-10' alt="" />
 								<h1 className='font-semibold'>Search a ride</h1>
 							</div>
-							<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+							<img className='w-6' src={getInArrowImage} alt="" />
 						</div>
 					</Link>
 
@@ -107,7 +107,7 @@ const Navbar = () => {
 								<img src={AddARide} className='w-9 md:w-10' alt="" />
 								<h1 className='font-semibold'>Add a ride</h1>
 							</div>
-							<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+							<img className='w-6' src={getInArrowImage} alt="" />
 						</div>
 					</Link>
 
@@ -117,7 +117,7 @@ const Navbar = () => {
 								<img src={ridesImage} className='w-9 md:w-10' alt="" />
 								<h1 className='font-semibold'>Your rides</h1>
 							</div>
-							<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+							<img className='w-6' src={getInArrowImage} alt="" />
 						</div>
 					</Link>
 
@@ -127,7 +127,7 @@ const Navbar = () => {
 								<img src={newsImage} className='w-9 md:w-10' alt="" />
 								<h1 className='font-semibold'>News</h1>
 							</div>
-							<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+							<img className='w-6' src={getInArrowImage} alt="" />
 						</div>
 					</Link>
 
@@ -137,7 +137,7 @@ const Navbar = () => {
 								<img src={LogInUser} className='w-9 md:w-10' alt="" />
 								<h1 className='font-semibold'>Profile</h1>
 							</div>
-							<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+							<img className='w-6' src={getInArrowImage} alt="" />
 						</div>
 					</Link>
 
@@ -147,7 +147,7 @@ const Navbar = () => {
 								<img src={bankImage} className='w-9 md:w-10' alt="" />
 								<h1 className='font-semibold'>Payments & Refunds</h1>
 							</div>
-							<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+							<img className='w-6' src={getInArrowImage} alt="" />
 						</div>
 					</Link>
 
@@ -156,7 +156,7 @@ const Navbar = () => {
 							<img src={logOutImage} className='w-9 md:w-10' alt="" />
 							<h1 className='font-semibold'>Log out</h1>
 						</div>
-						<img className='w-6 h-fit' src={getInArrowImage} alt="" />
+						<img className='w-6' src={getInArrowImage} alt="" />
 					</div>
 				</div>
 
