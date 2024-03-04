@@ -10,7 +10,9 @@ import VerifyProfileImage from '../../pictures/add.png'
 const Profile = () => {
 	return (
 		<div>
-			<Navbar />
+			<div className='pb-4'>
+				<Navbar />
+			</div>
 
 			<div className='m-12 sm:m-20 my-12 border border-gray-300 rounded-md py-3 flex justify-around items-center text-white font-semibold text-lg sm:text-xl md:text-2xl transition-all duration-500'>
 				<div>

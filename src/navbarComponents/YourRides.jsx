@@ -10,7 +10,7 @@ const YourRides = () => {
 		<div>
 			<Navbar />
 			<div className='h-[90vh] my-8 space-y-10 px-12 text-white'>
-				<div className='flex justify-center items-center'>
+				<div className='flex justify-center items-center pt-12'>
 					<img className='navIcon w-48 h-fit' src={PlanningImage} alt="" />
 				</div>
 

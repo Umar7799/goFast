@@ -16,7 +16,7 @@ const HomePage = () => {
 	return (
 		<div>
 			<Navbar />
-			<div onClick={handleOtherElementClick} className='flex justify-center items-center mt-12'>
+			<div onClick={handleOtherElementClick} className='flex justify-center items-center'>
 				<h1 className='transition-all py-16 px-12 sm:px-0 pb-18 font-semibold text-3xl sm:text-4xl md:text-5xl text-white duration-500'>Where do you want to go?</h1>
 			</div>
 			{/* MD NI TEPASIDAGI SEARCH AREA */}

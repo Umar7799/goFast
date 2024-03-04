@@ -70,9 +70,10 @@ const Navbar = () => {
 
 
 	return (
-		<div className=''>
+		<div className='mb-12'>
+
+			<div id='navbar' className='fixed top-0 w-full duration-500 rounded-b-md flex justify-between px-8 py-4 bg-[#405855] bg-opacity-40 backdrop-blur-md rounded drop-shadow-lg shadow-md z-[100]'>
 			{/* bg-gradient-to-l from-[#39393A] to-[#555557] */}
-			<div id='navbar' className='fixed w-full duration-500 rounded-b-md flex justify-between px-8 py-4 bg-[#405855] text-white bg-opacity-40 backdrop-blur-md rounded drop-shadow-lg shadow-md z-[100]'>
 
 				{/* NAVBAR */}
 				<div className='flex justify-between md:w-auto w-full space-x-8 text-white text-lg font-semibold'>
@@ -269,10 +270,10 @@ const Navbar = () => {
 
 
 
+			</div>
 
 
 
-		</div>
 
 	)
 }
